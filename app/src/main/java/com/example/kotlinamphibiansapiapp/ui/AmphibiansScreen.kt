@@ -55,7 +55,7 @@ fun AmphibiansLazyColumnScreen(
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = Modifier.padding(contentPadding)
     ) {
-        items(amphibians) {
+        items(items = amphibians, key = { amphibian -> amphibian.id}) {
             AmphibianCardItem(amphibian = it)
         }
     }
