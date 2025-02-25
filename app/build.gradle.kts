@@ -51,9 +51,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
-//    //Viewmodel
-//    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-//    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    //Viewmodel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 
     //Retrofit
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
